@@ -3,11 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Lombardy.Gepidia.Construction", "R5T.Lombardy.Gepidia.Construction\R5T.Lombardy.Gepidia.Construction.csproj", "{6A760147-406C-41C4-BDFD-2E7FB0F2D1C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Lombardy.Gepidia.Construction", "R5T.Lombardy.Gepidia.Construction\R5T.Lombardy.Gepidia.Construction.csproj", "{6A760147-406C-41C4-BDFD-2E7FB0F2D1C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Lombardy.Gepidia", "R5T.Lombardy.Gepidia\R5T.Lombardy.Gepidia.csproj", "{6EE79893-D4D6-4AC8-9DD2-22B12E22DE7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Lombardy.Gepidia", "R5T.Lombardy.Gepidia\R5T.Lombardy.Gepidia.csproj", "{6EE79893-D4D6-4AC8-9DD2-22B12E22DE7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Lombardy.Gepidia.Testing", "R5T.Lombardy.Gepidia.Testing\R5T.Lombardy.Gepidia.Testing.csproj", "{CE66A7FF-3B34-4767-A98E-D1086B13B4F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Lombardy.Gepidia.Testing", "R5T.Lombardy.Gepidia.Testing\R5T.Lombardy.Gepidia.Testing.csproj", "{CE66A7FF-3B34-4767-A98E-D1086B13B4F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{F7E6FAE7-A038-4940-873A-6E22A1C08A82}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Lombardy.Base", "..\..\R5T.Lombardy.Base\source\R5T.Lombardy.Base\R5T.Lombardy.Base.csproj", "{9797A268-E80E-4A50-AFA4-61ACE6F89169}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Gepidia.Base", "..\..\R5T.Gepidia.Base\source\R5T.Gepidia.Base\R5T.Gepidia.Base.csproj", "{0563C949-842C-4D80-AC27-658B797CA4FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +23,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{6A760147-406C-41C4-BDFD-2E7FB0F2D1C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -58,5 +61,39 @@ Global
 		{CE66A7FF-3B34-4767-A98E-D1086B13B4F1}.Release|x64.Build.0 = Release|Any CPU
 		{CE66A7FF-3B34-4767-A98E-D1086B13B4F1}.Release|x86.ActiveCfg = Release|Any CPU
 		{CE66A7FF-3B34-4767-A98E-D1086B13B4F1}.Release|x86.Build.0 = Release|Any CPU
+		{9797A268-E80E-4A50-AFA4-61ACE6F89169}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9797A268-E80E-4A50-AFA4-61ACE6F89169}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9797A268-E80E-4A50-AFA4-61ACE6F89169}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9797A268-E80E-4A50-AFA4-61ACE6F89169}.Debug|x64.Build.0 = Debug|Any CPU
+		{9797A268-E80E-4A50-AFA4-61ACE6F89169}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9797A268-E80E-4A50-AFA4-61ACE6F89169}.Debug|x86.Build.0 = Debug|Any CPU
+		{9797A268-E80E-4A50-AFA4-61ACE6F89169}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9797A268-E80E-4A50-AFA4-61ACE6F89169}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9797A268-E80E-4A50-AFA4-61ACE6F89169}.Release|x64.ActiveCfg = Release|Any CPU
+		{9797A268-E80E-4A50-AFA4-61ACE6F89169}.Release|x64.Build.0 = Release|Any CPU
+		{9797A268-E80E-4A50-AFA4-61ACE6F89169}.Release|x86.ActiveCfg = Release|Any CPU
+		{9797A268-E80E-4A50-AFA4-61ACE6F89169}.Release|x86.Build.0 = Release|Any CPU
+		{0563C949-842C-4D80-AC27-658B797CA4FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0563C949-842C-4D80-AC27-658B797CA4FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0563C949-842C-4D80-AC27-658B797CA4FA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0563C949-842C-4D80-AC27-658B797CA4FA}.Debug|x64.Build.0 = Debug|Any CPU
+		{0563C949-842C-4D80-AC27-658B797CA4FA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0563C949-842C-4D80-AC27-658B797CA4FA}.Debug|x86.Build.0 = Debug|Any CPU
+		{0563C949-842C-4D80-AC27-658B797CA4FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0563C949-842C-4D80-AC27-658B797CA4FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0563C949-842C-4D80-AC27-658B797CA4FA}.Release|x64.ActiveCfg = Release|Any CPU
+		{0563C949-842C-4D80-AC27-658B797CA4FA}.Release|x64.Build.0 = Release|Any CPU
+		{0563C949-842C-4D80-AC27-658B797CA4FA}.Release|x86.ActiveCfg = Release|Any CPU
+		{0563C949-842C-4D80-AC27-658B797CA4FA}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9797A268-E80E-4A50-AFA4-61ACE6F89169} = {F7E6FAE7-A038-4940-873A-6E22A1C08A82}
+		{0563C949-842C-4D80-AC27-658B797CA4FA} = {F7E6FAE7-A038-4940-873A-6E22A1C08A82}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D880D0C-5E13-4008-AF84-D56722CF2FD3}
 	EndGlobalSection
 EndGlobal
