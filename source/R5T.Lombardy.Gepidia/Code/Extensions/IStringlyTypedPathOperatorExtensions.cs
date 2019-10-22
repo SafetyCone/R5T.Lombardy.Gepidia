@@ -36,7 +36,7 @@ namespace R5T.Lombardy.Gepidia.Extensions
 
         /// <summary>
         /// Gets the <see cref="FileSystemEntryType"/> for a path based on whether the path is directory-indicated.
-        /// Operates at the path-level of 
+        /// Operates at the path-level of abstraction, without requiring that the path actually exist in the file-system.
         /// </summary>
         public static FileSystemEntryType GetFileSystemEntryType(this IStringlyTypedPathOperator stringlyTypedPathOperator, string path)
         {
